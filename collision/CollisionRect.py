@@ -26,3 +26,4 @@ def isCollisionRect(rectangles):
             if width > 0 and height > 0:
                 return True  
     return False  
+ 
