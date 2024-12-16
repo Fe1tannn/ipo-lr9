@@ -38,3 +38,4 @@ def intersectionAreaMultiRect(rectangles):
             intersection = get_intersection(combination)
             total_area += sign * area(intersection)
     return total_area
+ 
