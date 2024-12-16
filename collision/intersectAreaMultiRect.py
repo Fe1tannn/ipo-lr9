@@ -1,7 +1,7 @@
 from collision.CorrectRec import isCorrectRect , RectCorrectError
 from itertools import combinations
 def intersectionAreaMultiRect(rectangles): 
-    #Координаты пересечения
+    # Координаты пересечения
     def get_intersection(rects):
         x1 = max(rect[0][0] for rect in rects)
         y1 = max(rect[0][1] for rect in rects)
@@ -10,7 +10,7 @@ def intersectionAreaMultiRect(rectangles):
         if x1 < x2 and y1 < y2:
             return [(x1, y1), (x2, y2)]
         return None
-    # плоащадь прямоугольников
+    # Площадь прямоугольников
     def area(rect):
         if not rect:
             return 0
